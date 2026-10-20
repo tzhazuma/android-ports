@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Android 桌面级应用移植 — 把桌面软件装进你的手机</title>
+<meta name="description" content="FreeCAD、Blender、GNU Octave、VS Code、DeepSeek Harness 以及一整套 ArtCraft 创作工具的原生 Android arm64 移植版。全部开源，APK 直接在 GitHub Releases 下载。">
+<link rel="icon" href="icons/vectorcraft.png">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="brand" href="#top">
+    <span class="brand-dot"></span>
+    Android Ports
+  </a>
+  <nav class="nav-links">
+    <a href="#apps">应用</a>
+    <a href="#specs">技术说明</a>
+    <a href="#support">支持</a>
+    <a class="ghost" href="https://github.com/tzhazuma" target="_blank" rel="noopener">GitHub</a>
+  </nav>
+</header>
+
+<section id="top" class="hero">
+  <div class="hero-glow"></div>
+  <h1>把桌面软件<br><span class="grad">搬进你的手机</span></h1>
+  <p class="lede">
+    FreeCAD、Blender、GNU Octave、VS Code、DeepSeek Harness，以及一整套 ArtCraft 创作工具——
+    全部是 <strong>arm64 原生移植</strong>，不是远程串流、不是网页壳子。
+    用 Android 自己的文件选择器打开和保存，桌面版的功能原样保留。
+  </p>
+  <div class="hero-actions">
+    <a class="btn primary" href="#apps">浏览全部应用</a>
+    <a class="btn" href="https://github.com/tzhazuma" target="_blank" rel="noopener">查看源码</a>
+  </div>
+  <dl class="stats">
+    <div><dt>17</dt><dd>原生应用</dd></div>
+    <div><dt>arm64</dt><dd>原生指令集</dd></div>
+    <div><dt>SAF</dt><dd>系统文件选择器</dd></div>
+    <div><dt>开源</dt><dd>GitHub 全部可见</dd></div>
+  </dl>
+</section>
+
+<main>
+  <section id="apps" class="section">
+    <div class="section-head">
+      <h2>应用</h2>
+      <p>点开任意一张卡片，直接到对应的 GitHub Release 下载 APK。</p>
+    </div>
+
+    <div class="toolbar">
+      <div class="chips" id="chips">
+        <button class="chip is-on" data-cat="all">全部</button>
+        <button class="chip" data-cat="pro">专业软件</button>
+        <button class="chip" data-cat="art">ArtCraft 创作</button>
+        <button class="chip" data-cat="dev">开发与智能</button>
+      </div>
+      <input id="search" type="search" placeholder="搜索应用…" autocomplete="off">
+    </div>
+
+    <div class="grid" id="grid"><!-- filled by app.js --></div>
+    <p class="empty" id="empty" hidden>没有匹配的应用。</p>
+  </section>
+
+  <section id="specs" class="section">
+    <div class="section-head">
+      <h2>技术说明</h2>
+      <p>这些移植不是套壳，改动都在源码层面。</p>
+    </div>
+    <div class="cards">
+      <article class="card info">
+        <h3>原生二进制</h3>
+        <p>FreeCAD、Blender、Octave 的 C/C++ 核心与 Qt/SDL 界面全部针对 <code>arm64-v8a</code> 交叉编译；ArtCraft 系列是 Rust + egui，编译为单个 <code>libmain.so</code>。</p>
+      </article>
+      <article class="card info">
+        <h3>走系统的文件选择器</h3>
+        <p>打开与保存经由 Android Storage Access Framework。<code>content://</code> URI 会被解析成真实路径（或复制进应用私有目录），保存时再把字节流回写成你选定的文件。</p>
+      </article>
+      <article class="card info">
+        <h3>没有 bash 也能跑</h3>
+        <p>Android 只有 toybox 的 <code>/system/bin/sh</code>，没有 bash。移植版在应用私有目录里放置 exec shim 并把 <code>SHELL</code> 指过去，命令行工具因此可用。</p>
+      </article>
+      <article class="card info">
+        <h3>真实可用的图标</h3>
+        <p>每个 APK 的启动图标都由软件自身的原始素材渲染，覆盖全部密度与自适应图标，而不是通用占位图。</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="support" class="section">
+    <div class="section-head">
+      <h2>支持这个项目</h2>
+      <p>所有移植都免费开源。如果它们帮到了你，可以自愿赞助，用来覆盖测试机、编译时间和存储成本。</p>
+    </div>
+    <div class="donate">
+      <figure class="qr">
+        <div class="qr-box" id="qr-wechat"><span>微信支付<br>二维码</span></div>
+        <figcaption>微信</figcaption>
+      </figure>
+      <figure class="qr">
+        <div class="qr-box" id="qr-alipay"><span>支付宝<br>二维码</span></div>
+        <figcaption>支付宝</figcaption>
+      </figure>
+    </div>
+    <p class="fineprint">赞助完全自愿，不解锁任何功能，也不影响任何应用的下载与使用。</p>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>
+    © <span id="year"></span> Android Ports ·
+    基于各自上游项目的开源许可发布 ·
+    <a href="https://github.com/tzhazuma" target="_blank" rel="noopener">github.com/tzhazuma</a>
+  </p>
+  <p class="fineprint">FreeCAD、Blender、GNU Octave、VS Code 等名称与图标归各自项目所有，此处仅用于标识移植版本。</p>
+</footer>
+
+<script src="assets/apps.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
