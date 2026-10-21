@@ -20,6 +20,12 @@ window.APPS = [
     release: "https://github.com/tzhazuma/octave-android/releases/tag/v0.2.0"
   },
   {
+    id: "vscode", name: "VS Code", cat: "dev", tag: "编辑器",
+    desc: "VS Code 4.141.0 原生运行：完整工作台、扩展、以及真 PTY 的集成终端（node-pty 无需补丁，bionic 自 API 23 起就有 forkpty）。",
+    size: "139 MB", version: "4.141.0",
+    release: "https://github.com/tzhazuma/vscode-android/releases/tag/android-v1"
+  },
+  {
     id: "dsh", name: "DeepSeek Harness", cat: "dev", tag: "AI 终端",
     desc: "把 dsh 的 Node 运行时整个塞进 APK：前台服务托管，内置模型配置，命令行与 SAF 文件读写齐备。",
     size: "136 MB", version: "0.1.0",
