@@ -21,8 +21,8 @@ window.APPS = [
   },
   {
     id: "vscode", name: "VS Code", cat: "dev", tag: "编辑器",
-    desc: "VS Code 4.141.0 原生运行：完整工作台、扩展、真 PTY 的集成终端。终端内置 Termux 引导环境，可在 Termux bash（含 coreutils）、Android sh、以及 ELF shim 三种 shell 之间切换。",
-    size: "171 MB", version: "4.141.0",
+    desc: "VS Code 4.141.0 原生运行：完整工作台、扩展、真 PTY 的集成终端。内置 Termux 引导环境（真 bash + coreutils + apt），另有 Android sh 与 ELF shim 可选；已内置 openssh 与 adb，可用 pkg-install 安装新包。",
+    size: "198 MB", version: "4.141.0",
     release: "https://github.com/tzhazuma/vscode-android/releases/tag/android-v1"
   },
   {
