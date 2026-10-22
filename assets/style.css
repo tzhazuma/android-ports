@@ -410,3 +410,26 @@ code {
   * { transition: none !important; scroll-behavior: auto; }
   .hero-glow { display: none; }
 }
+
+/* Real-device screenshots: three tall phone shots side by side, wrapping on narrow screens. */
+.shots {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  align-items: start;
+}
+.shots figure { margin: 0; }
+.shots img {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, .08);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, .35);
+  display: block;
+}
+.shots figcaption {
+  margin-top: 10px;
+  font-size: .86rem;
+  line-height: 1.5;
+  opacity: .75;
+}
