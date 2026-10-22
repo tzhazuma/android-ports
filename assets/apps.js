@@ -15,7 +15,7 @@ window.APPS = [
   },
   {
     id: "octave", name: "GNU Octave", cat: "pro", tag: "科学计算",
-    desc: "完整 Octave 解释器：LAPACK / FFTW / ARPACK 已通过自检，gnuplot 可出图，支持脚本与 .m 文件。",
+    desc: "GNU Octave 11.3.0 的完整 Qt 图形界面：Command Window、File Browser、Workspace、Command History、Documentation 全部可用，octave:1> 提示符下可直接求值。",
     size: "41 MB", version: "0.2.0",
     release: "https://github.com/tzhazuma/octave-android/releases/tag/v0.2.0"
   },
