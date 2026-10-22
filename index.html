@@ -80,7 +80,7 @@
       </article>
       <article class="card info">
         <h3>没有 bash 也能跑</h3>
-        <p>Android 只有 toybox 的 <code>/system/bin/sh</code>，没有 bash。移植版在应用私有目录里放置 exec shim 并把 <code>SHELL</code> 指过去，命令行工具因此可用。</p>
+        <p>Android 只有 toybox 的 <code>/system/bin/sh</code>，没有 bash。把 shim 写成脚本放在应用数据目录里是行不通的——Android 10+ 拒绝对该目录执行 <code>execve</code>（表现为 <code>spawn bash EACCES</code>）。移植版改为在 <code>nativeLibraryDir</code> 里放一个 6 KB 的 ELF，再符号链接到 <code>bin/bash</code>，SHELL 指过去即可。</p>
       </article>
       <article class="card info">
         <h3>真实可用的图标</h3>
