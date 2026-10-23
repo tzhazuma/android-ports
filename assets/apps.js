@@ -15,7 +15,7 @@ window.APPS = [
   },
   {
     id: "octave", name: "GNU Octave", cat: "pro", tag: "科学计算",
-    desc: "GNU Octave 11.3.0 的完整 Qt 图形界面：Command Window、File Browser、Workspace、Command History、Documentation 全部可用，octave:1> 提示符下可直接求值。",
+    desc: "GNU Octave 11.3.0 的完整 Qt 图形界面：Command Window、File Browser、Workspace、Command History、Documentation 全部可用，支持旋转与退出确认。编辑器面板已接入（重编 QScintilla 后标签可创建），文件对话框仍在完善中",
     size: "191 MB", version: "0.2.0",
     release: "https://github.com/tzhazuma/octave-android/releases/tag/v0.2.0"
   },
