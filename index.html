@@ -17,7 +17,9 @@
   </a>
   <nav class="nav-links">
     <a href="#apps">应用</a>
-    <a href="#specs">技术说明</a>
+    <a href="#shots">截图</a>
+        <a href="#install">安装提示</a>
+        <a href="#specs">技术说明</a>
     <a href="#support">支持</a>
     <a class="ghost" href="https://github.com/tzhazuma" target="_blank" rel="noopener">GitHub</a>
   </nav>
@@ -109,6 +111,33 @@
         <h3>真实可用的图标</h3>
         <p>每个 APK 的启动图标都由软件自身的原始素材渲染，覆盖全部密度与自适应图标，而不是通用占位图。</p>
       </article>
+    </div>
+  </section>
+
+  <section id="install" class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>安装提示</h2>
+        <p>这些包都是侧载安装（不在任何应用商店里），有几个地方值得先看一眼。</p>
+      </div>
+      <div class="cards">
+        <article class="card info">
+          <h3>允许安装未知来源</h3>
+          <p>第一次装 APK 时系统会要求给浏览器或文件管理器「安装未知应用」的权限，在设置里打开即可。所有包都是 arm64-v8a，32 位设备装不上。</p>
+        </article>
+        <article class="card info">
+          <h3>国产 ROM 的安装确认</h3>
+          <p>vivo / OPPO 等系统会额外弹「风险提示」，需要先勾选同意再点「继续安装」。如果屏幕锁着，安装会被拒绝 —— 先解锁。</p>
+        </article>
+        <article class="card info">
+          <h3>文件权限</h3>
+          <p>FreeCAD、Blender、VS Code 需要「所有文件访问」权限才能用系统文件选择器打开和保存文档，首次运行时按提示授权。</p>
+        </article>
+        <article class="card info">
+          <h3>VS Code 的 Termux 通道是可选功能</h3>
+          <p>内置终端开箱即用（真 bash + apt）。若想 ssh 到手机上另一个 Termux 应用，需要先用 adb 执行一条授权命令，页面对应仓库的 README 里有说明。</p>
+        </article>
+      </div>
     </div>
   </section>
 

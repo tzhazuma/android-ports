@@ -59,7 +59,7 @@ window.APPS = [
   {
     id: "cadcraft", name: "CADCraft", cat: "art", tag: "CAD",
     desc: "二维工程制图：精确捕捉、尺寸标注、图层与线型，输出 DXF。",
-    size: "31 MB", version: "0.6",
+    size: "31 MB", version: "0.7.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
@@ -77,7 +77,7 @@ window.APPS = [
   {
     id: "soundcraft", name: "SoundCraft", cat: "art", tag: "音频",
     desc: "多轨音频编辑：波形剪辑、淡入淡出、混音导出。",
-    size: "27 MB", version: "0.6",
+    size: "27 MB", version: "0.7.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
