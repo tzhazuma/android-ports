@@ -15,13 +15,13 @@ window.APPS = [
   },
   {
     id: "octave", name: "GNU Octave", cat: "pro", tag: "科学计算",
-    desc: "GNU Octave 11.3.0 的完整 Qt 图形界面：Command Window、File Browser、Workspace、Command History、Documentation 全部可用，支持旋转与退出确认。编辑器面板已接入（重编 QScintilla 后标签可创建），文件对话框仍在完善中",
+    desc: "GNU Octave 11.3.0 的 Qt 图形界面：Command Window、File Browser、Workspace、Command History、Documentation 全部可用，支持屏幕旋转与返回键退出确认。编辑器面板已接入（重编 QScintilla 后标签可创建），编辑器视图渲染仍在完善",
     size: "191 MB", version: "0.2.0",
     release: "https://github.com/tzhazuma/octave-android/releases/tag/v0.2.0"
   },
   {
     id: "vscode", name: "VS Code", cat: "dev", tag: "编辑器",
-    desc: "VS Code 4.141.0 原生运行：完整工作台、可装扩展、真 PTY 集成终端。内置 Termux 引导环境，终端里直接有 bash 5.3 / Python 3.14 / clang 21 / cmake / ninja，apt 可安装与卸载软件包，另有 Android sh 与 ELF shim 作为可选终端",
+    desc: "VS Code 4.141.0 原生运行：完整工作台、真 PTY 集成终端、可装 Cline / Roo Code 等 agent 扩展。内置 Termux 环境，终端里直接有 bash 5.3 / apt / python 3.14 / clang 21 / cmake / ninja / go / rust / java，并可一键进入 Ubuntu 26.04（经 Termux proot-distro）",
     size: "198 MB", version: "4.141.0",
     release: "https://github.com/tzhazuma/vscode-android/releases/tag/android-v1"
   },
