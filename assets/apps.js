@@ -29,7 +29,7 @@ window.APPS = [
     id: "dsh", name: "DeepSeek Harness", cat: "dev", tag: "AI 终端",
     desc: "把 dsh 的 Node 运行时整个塞进 APK：前台服务托管，内置模型配置，命令行与 SAF 文件读写齐备。",
     size: "136 MB", version: "0.1.0",
-    release: "https://github.com/tzhazuma/dsh-android/releases/tag/android-v1"
+    release: "https://github.com/tzhazuma/dsh-android/releases/tag/android-v2"
   },
 
   {
