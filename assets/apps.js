@@ -21,7 +21,7 @@ window.APPS = [
   },
   {
     id: "vscode", name: "VS Code", cat: "dev", tag: "编辑器",
-    desc: "VS Code 4.141.0 原生运行：完整工作台、真 PTY 终端、Open VSX 扩展市场（搜索与安装均已验证，可装 Cline / Roo Code 等 agent）。内置 Termux 环境：bash 5.3、apt、python 3.14、clang 21、cmake、ninja、go、rust、java；终端里输入 ubuntu 即可进入 Ubuntu 26.04 LTS",
+    desc: "VS Code 4.141.0 原生运行：完整工作台、真 PTY 终端、Open VSX 扩展市场（搜索与安装均已验证）。内置 Termux 环境与自带 proot + Ubuntu 26.04 rootfs —— 终端里输入 ubuntu 即可进入容器（不再依赖外部 Termux 应用）。工具链：bash 5.3、apt、python 3.14、clang 21、cmake、ninja、go、rust、java",
     size: "198 MB", version: "4.141.0",
     release: "https://github.com/tzhazuma/vscode-android/releases/tag/android-v1"
   },
