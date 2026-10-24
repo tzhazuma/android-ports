@@ -83,7 +83,7 @@ window.APPS = [
   {
     id: "filmcraft", name: "FilmCraft", cat: "art", tag: "视频",
     desc: "视频剪辑：时间线、片段裁剪、转场与字幕。",
-    size: "37 MB", version: "0.2.1",
+    size: "48 MB", version: "0.12.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
@@ -101,7 +101,7 @@ window.APPS = [
   {
     id: "effectcraft", name: "EffectCraft", cat: "art", tag: "特效",
     desc: "节点式合成与特效：图层树、关键帧动画、粒子与光效。",
-    size: "65 MB", version: "0.4.0",
+    size: "71 MB", version: "0.16.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
