@@ -21,13 +21,13 @@ window.APPS = [
   },
   {
     id: "vscode", name: "VS Code", cat: "dev", tag: "编辑器",
-    desc: "VS Code 4.141.0 原生运行：完整工作台、真 PTY 终端、Open VSX 扩展市场（搜索与安装均已验证）。**完全自带 Linux 容器**——APK 内置 proot 与 Ubuntu 26.04 rootfs，终端选择器里已有 ubuntu 配置，无需安装 Termux。工具链：bash 5.3、apt、python 3.14、clang 21、cmake、ninja、go、rust、java",
+    desc: "VS Code 4.141.0 原生运行：完整工作台、真 PTY 终端、Open VSX 扩展市场。自带 proot + Ubuntu 26.04 rootfs 与完整工具链（python / clang / go / rust / java / git / ssh / adb）。终端配置：菜单 → Terminal → Select Default Profile，可选 ubuntu / termux / android",
     size: "198 MB", version: "4.141.0",
     release: "https://github.com/tzhazuma/vscode-android/releases/tag/android-v1"
   },
   {
     id: "dsh", name: "DeepSeek Harness", cat: "dev", tag: "AI 终端",
-    desc: "DeepSeek Harness 原生 Android 客户端：完整 agent 会话、Web GUI、工具系统。**内置 Termux 用户态**（bash/apt/python/clang/git）与 **proot + Ubuntu 26.04**，终端里输入 ubuntu 即可进入容器，无需安装 Termux。另提供 termux_run 工具供模型直接调用。",
+    desc: "DeepSeek Harness 原生 Android 客户端：完整 agent 会话与工具系统。自带 Termux 用户态与 proot + Ubuntu 26.04，无需外部 Termux；工具链含 python / clang / go / rust / java / git / ssh / adb",
     size: "136 MB", version: "0.1.0",
     release: "https://github.com/tzhazuma/dsh-android/releases/tag/android-v2"
   },
