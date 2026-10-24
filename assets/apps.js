@@ -77,7 +77,7 @@ window.APPS = [
   {
     id: "soundcraft", name: "SoundCraft", cat: "art", tag: "音频",
     desc: "多轨音频编辑：波形剪辑、淡入淡出、混音导出。",
-    size: "27 MB", version: "0.7.0",
+    size: "27 MB", version: "0.12.1",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
