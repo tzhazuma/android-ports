@@ -41,7 +41,7 @@ window.APPS = [
   {
     id: "figcraft", name: "FigCraft", cat: "art", tag: "界面设计",
     desc: "界面与图标设计：画板、组件、约束布局，适合做 App 稿与设计系统。",
-    size: "48 MB", version: "0.9",
+    size: "51 MB", version: "0.10.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
@@ -53,19 +53,19 @@ window.APPS = [
   {
     id: "deckcraft", name: "DeckCraft", cat: "art", tag: "演示",
     desc: "演示文稿编辑：主题模板、母版、逐页排版，可导出与放映。",
-    size: "44 MB", version: "0.7",
+    size: "44 MB", version: "0.10.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
     id: "cadcraft", name: "CADCraft", cat: "art", tag: "CAD",
     desc: "二维工程制图：精确捕捉、尺寸标注、图层与线型，输出 DXF。",
-    size: "31 MB", version: "0.7.0",
+    size: "32 MB", version: "0.12.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
     id: "wordcraft", name: "WordCraft", cat: "art", tag: "文档",
     desc: "富文本与长文档写作：样式、目录、脚注，支持导出 DOCX / PDF。",
-    size: "55 MB", version: "0.7",
+    size: "56 MB", version: "0.10.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
@@ -89,7 +89,7 @@ window.APPS = [
   {
     id: "lightcraft", name: "LightCraft", cat: "art", tag: "修图",
     desc: "照片调色：曲线、色阶、HSL、局部调整，支持 RAW 流程。",
-    size: "34 MB", version: "0.2.1",
+    size: "50 MB", version: "0.13.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
