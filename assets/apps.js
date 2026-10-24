@@ -35,43 +35,43 @@ window.APPS = [
   {
     id: "vectorcraft", name: "VectorCraft", cat: "art", tag: "矢量",
     desc: "桌面级矢量编辑器：贝塞尔与节点编辑、图层、渐变、路径效果、PDF/SVG 导出。",
-    size: "80 MB", version: "0.12",
+    size: "90 MB", version: "0.16.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
     id: "figcraft", name: "FigCraft", cat: "art", tag: "界面设计",
     desc: "界面与图标设计：画板、组件、约束布局，适合做 App 稿与设计系统。",
-    size: "51 MB", version: "0.10.0",
+    size: "54 MB", version: "0.10.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
     id: "designcraft", name: "DesignCraft", cat: "art", tag: "排版设计",
     desc: "多画板排版与印刷设计，支持出血、色彩配置与 PDF 输出。",
-    size: "65 MB", version: "0.8",
+    size: "69 MB", version: "0.12.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
     id: "deckcraft", name: "DeckCraft", cat: "art", tag: "演示",
     desc: "演示文稿编辑：主题模板、母版、逐页排版，可导出与放映。",
-    size: "44 MB", version: "0.10.0",
+    size: "46 MB", version: "0.10.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
     id: "cadcraft", name: "CADCraft", cat: "art", tag: "CAD",
     desc: "二维工程制图：精确捕捉、尺寸标注、图层与线型，输出 DXF。",
-    size: "32 MB", version: "0.12.0",
+    size: "33 MB", version: "0.12.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
     id: "wordcraft", name: "WordCraft", cat: "art", tag: "文档",
     desc: "富文本与长文档写作：样式、目录、脚注，支持导出 DOCX / PDF。",
-    size: "56 MB", version: "0.10.0",
+    size: "59 MB", version: "0.10.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
     id: "gridcraft", name: "GridCraft", cat: "art", tag: "表格",
     desc: "电子表格：公式引擎、单元格格式、图表与 CSV 互导。",
-    size: "30 MB", version: "0.7",
+    size: "32 MB", version: "0.11.1",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
