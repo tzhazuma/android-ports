@@ -107,7 +107,7 @@ window.APPS = [
   {
     id: "printcraft", name: "PrintCraft", cat: "art", tag: "PDF",
     desc: "PDF 阅读与编辑：页面组织、注释、表单与导出。",
-    size: "47 MB", version: "0.2.1",
+    size: "59 MB", version: "0.13.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   }
 ];
