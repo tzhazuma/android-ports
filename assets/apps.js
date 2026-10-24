@@ -95,7 +95,7 @@ window.APPS = [
   {
     id: "photocraft", name: "PhotoCraft", cat: "art", tag: "照片",
     desc: "图层式图像处理：选区、蒙版、混合模式与滤镜。",
-    size: "45 MB", version: "0.3.0",
+    size: "63 MB", version: "0.15.1",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
