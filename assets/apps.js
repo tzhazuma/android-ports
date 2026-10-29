@@ -41,19 +41,19 @@ window.APPS = [
   {
     id: "figcraft", name: "FigCraft", cat: "art", tag: "界面设计",
     desc: "界面与图标设计：画板、组件、约束布局，适合做 App 稿与设计系统。",
-    size: "54 MB", version: "0.10.0",
+    size: "57 MB", version: "0.12.1",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
     id: "designcraft", name: "DesignCraft", cat: "art", tag: "排版设计",
     desc: "多画板排版与印刷设计，支持出血、色彩配置与 PDF 输出。",
-    size: "66 MB", version: "0.13.0",
+    size: "77 MB", version: "0.14.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
     id: "deckcraft", name: "DeckCraft", cat: "art", tag: "演示",
     desc: "演示文稿编辑：主题模板、母版、逐页排版，可导出与放映。",
-    size: "45 MB", version: "0.11.1",
+    size: "47 MB", version: "0.12.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
