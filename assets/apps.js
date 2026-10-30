@@ -33,6 +33,12 @@ window.APPS = [
   },
 
   {
+    id: "artcraftlauncher", name: "ArtCraft Launcher", cat: "art", tag: "启动器",
+    desc: "13 个 Craft 应用的统一入口：扫描已安装的应用、直接启动，未安装的跳转到下载页。它本身不做创作，是把这一套串起来的那一层。",
+    size: "24 MB", version: "0.10.0",
+    release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
+  },
+  {
     id: "vectorcraft", name: "VectorCraft", cat: "art", tag: "矢量",
     desc: "桌面级矢量编辑器：贝塞尔与节点编辑、图层、渐变、路径效果、PDF/SVG 导出。",
     size: "92 MB", version: "0.18.0",
