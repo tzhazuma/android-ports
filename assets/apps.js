@@ -41,55 +41,55 @@ window.APPS = [
   {
     id: "artcraftlauncher", name: "ArtCraft Launcher", cat: "art", tag: "启动器",
     desc: "13 个 Craft 应用的统一入口：扫描已安装的应用、直接启动，未安装的跳转到下载页。它本身不做创作，是把这一套串起来的那一层。",
-    size: "24 MB", version: "0.13.0",
+    size: "25 MB", version: "0.14.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
     id: "vectorcraft", name: "VectorCraft", cat: "art", tag: "矢量",
     desc: "桌面级矢量编辑器：贝塞尔与节点编辑、图层、渐变、路径效果、PDF/SVG 导出。",
-    size: "99 MB", version: "0.20.0",
+    size: "99 MB", version: "0.21.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
     id: "figcraft", name: "FigCraft", cat: "art", tag: "界面设计",
     desc: "界面与图标设计：画板、组件、约束布局，适合做 App 稿与设计系统。",
-    size: "61 MB", version: "0.14.0",
+    size: "61 MB", version: "0.15.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
     id: "designcraft", name: "DesignCraft", cat: "art", tag: "排版设计",
     desc: "多画板排版与印刷设计，支持出血、色彩配置与 PDF 输出。",
-    size: "79 MB", version: "0.16.0",
+    size: "79 MB", version: "0.17.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
     id: "deckcraft", name: "DeckCraft", cat: "art", tag: "演示",
     desc: "演示文稿编辑：主题模板、母版、逐页排版，可导出与放映。",
-    size: "48 MB", version: "0.14.1",
+    size: "48 MB", version: "0.15.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
     id: "cadcraft", name: "CADCraft", cat: "art", tag: "CAD",
     desc: "二维工程制图：精确捕捉、尺寸标注、图层与线型，输出 DXF。",
-    size: "37 MB", version: "0.16.0",
+    size: "37 MB", version: "0.17.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
     id: "wordcraft", name: "WordCraft", cat: "art", tag: "文档",
     desc: "富文本与长文档写作：样式、目录、脚注，支持导出 DOCX / PDF。",
-    size: "62 MB", version: "0.14.0",
+    size: "62 MB", version: "0.15.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
     id: "gridcraft", name: "GridCraft", cat: "art", tag: "表格",
     desc: "电子表格：公式引擎、单元格格式、图表与 CSV 互导。",
-    size: "38 MB", version: "0.15.0",
+    size: "38 MB", version: "0.16.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
     id: "soundcraft", name: "SoundCraft", cat: "art", tag: "音频",
     desc: "多轨音频编辑：波形剪辑、淡入淡出、混音导出。",
-    size: "31 MB", version: "0.16.0",
+    size: "32 MB", version: "0.17.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
