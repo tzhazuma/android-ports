@@ -77,7 +77,7 @@ window.APPS = [
   {
     id: "wordcraft", name: "WordCraft", cat: "art", tag: "文档",
     desc: "富文本与长文档写作：样式、目录、脚注，支持导出 DOCX / PDF。",
-    size: "62 MB", version: "0.15.0",
+    size: "62 MB", version: "0.15.1",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
@@ -95,7 +95,7 @@ window.APPS = [
   {
     id: "filmcraft", name: "FilmCraft", cat: "art", tag: "视频",
     desc: "视频剪辑：时间线、片段裁剪、转场与字幕。",
-    size: "48 MB", version: "0.12.0",
+    size: "48 MB", version: "0.12.1",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
@@ -113,7 +113,7 @@ window.APPS = [
   {
     id: "effectcraft", name: "EffectCraft", cat: "art", tag: "特效",
     desc: "节点式合成与特效：图层树、关键帧动画、粒子与光效。",
-    size: "71 MB", version: "0.16.0",
+    size: "70 MB", version: "0.16.1",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
