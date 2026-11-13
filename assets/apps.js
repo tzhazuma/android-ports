@@ -41,7 +41,7 @@ window.APPS = [
   {
     id: "artcraftlauncher", name: "ArtCraft Launcher", cat: "art", tag: "启动器",
     desc: "13 个 Craft 应用的统一入口：扫描已安装的应用、直接启动，未安装的跳转到下载页。它本身不做创作，是把这一套串起来的那一层。",
-    size: "25 MB", version: "0.14.0",
+    size: "25 MB", version: "0.19.2",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
