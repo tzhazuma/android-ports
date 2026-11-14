@@ -35,7 +35,7 @@ window.APPS = [
   {
     id: "solidcraft", name: "SolidCraft", cat: "art", tag: "参数化 CAD",
     desc: "社区应用：参数化实体建模。草图约束、拉伸/旋转/抽壳/圆角、特征树与时间线，STEP / IGES / 3MF / STL / OBJ 导入导出，3D 视口带视图立方体。",
-    size: "195 MB", version: "0.40.1",
+    size: "214 MB", version: "0.42.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
