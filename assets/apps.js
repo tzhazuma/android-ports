@@ -59,19 +59,19 @@ window.APPS = [
   {
     id: "designcraft", name: "DesignCraft", cat: "art", tag: "排版设计",
     desc: "多画板排版与印刷设计，支持出血、色彩配置与 PDF 输出。",
-    size: "80 MB", version: "0.20.1",
+    size: "92 MB", version: "0.21.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
     id: "deckcraft", name: "DeckCraft", cat: "art", tag: "演示",
     desc: "演示文稿编辑：主题模板、母版、逐页排版，可导出与放映。",
-    size: "49 MB", version: "0.18.1",
+    size: "49 MB", version: "0.19.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
     id: "cadcraft", name: "CADCraft", cat: "art", tag: "CAD",
     desc: "二维工程制图：精确捕捉、尺寸标注、图层与线型，输出 DXF。",
-    size: "39 MB", version: "0.20.1",
+    size: "39 MB", version: "0.21.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
