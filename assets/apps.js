@@ -22,7 +22,7 @@ window.APPS = [
   {
     id: "vscode", name: "VS Code", cat: "dev", tag: "编辑器",
     desc: "VS Code 4.141.0 原生运行：完整工作台、真 PTY 终端、Open VSX 扩展市场。自带 proot + Ubuntu 26.04 rootfs 与完整工具链（python / clang / go / rust / java / git / ssh / adb）。终端配置：菜单 → Terminal → Select Default Profile，可选 ubuntu / termux / android",
-    size: "198 MB", version: "4.141.0",
+    size: "336 MB", version: "4.145.2",
     release: "https://github.com/tzhazuma/vscode-android/releases/tag/android-v1"
   },
   {
