@@ -47,7 +47,7 @@ window.APPS = [
   {
     id: "artcraftlauncher", name: "ArtCraft Launcher", cat: "art", tag: "启动器",
     desc: "13 个 Craft 应用的统一入口：扫描已安装的应用、直接启动，未安装的跳转到下载页。它本身不做创作，是把这一套串起来的那一层。",
-    size: "25 MB", version: "0.19.3",
+    size: "25 MB", version: "0.19.4",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
@@ -83,7 +83,7 @@ window.APPS = [
   {
     id: "wordcraft", name: "WordCraft", cat: "art", tag: "文档",
     desc: "富文本与长文档写作：样式、目录、脚注，支持导出 DOCX / PDF。",
-    size: "67 MB", version: "0.18.1",
+    size: "67 MB", version: "0.19.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
