@@ -41,13 +41,13 @@ window.APPS = [
   {
     id: "mailcraft", name: "MailCraft", cat: "art", tag: "邮件",
     desc: "社区应用：邮件、日历、联系人与待办。文件夹／收件箱／阅读三栏，会话、规则、查询语言搜索，HTML 邮件不执行任何内容；IMAP 与 SMTP 收发（含 Microsoft 365 走 IMAP + OAuth 登录）。",
-    size: "40 MB", version: "1.0.0",
+    size: "40 MB", version: "0.13.0",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
     id: "artcraftlauncher", name: "ArtCraft Launcher", cat: "art", tag: "启动器",
     desc: "13 个 Craft 应用的统一入口：扫描已安装的应用、直接启动，未安装的跳转到下载页。它本身不做创作，是把这一套串起来的那一层。",
-    size: "25 MB", version: "0.19.5",
+    size: "25 MB", version: "0.19.6",
     release: "https://github.com/tzhazuma/artcraft-android/releases/tag/android-v1"
   },
   {
